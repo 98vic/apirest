@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "f982608c-096f-4344-a377-a9e267e17343",
+		"name": "Api Rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31595861"
+	},
+	"item": [
+		{
+			"name": "http://apirest-php.com/registro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "victor",
+							"type": "text"
+						},
+						{
+							"key": "apellidos",
+							"value": "martinez vazquez",
+							"type": "text"
+						},
+						{
+							"key": "telefono",
+							"value": "5624012856",
+							"type": "text"
+						},
+						{
+							"key": "correo",
+							"value": "vic.vazquez.0298@gmial.com",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": "/C:/Users/Familia/Downloads/imagen.jpg"
+						},
+						{
+							"key": "password",
+							"value": "victor123",
+							"type": "text"
+						},
+						{
+							"key": "usuario",
+							"value": "administrador",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apirest-php.com/registro",
+					"protocol": "http",
+					"host": [
+						"apirest-php",
+						"com"
+					],
+					"path": [
+						"registro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://apirest-php.com/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "telefono",
+							"value": "5624012856",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "victor123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apirest-php.com/login",
+					"protocol": "http",
+					"host": [
+						"apirest-php",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://apirest-php.com/actualizar-usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "telefono",
+							"value": "5624012856",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "victor123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apirest-php.com/login",
+					"protocol": "http",
+					"host": [
+						"apirest-php",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://apirest-php.com/eliminar-usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "telefono",
+							"value": "5624012856",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "victor123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apirest-php.com/login",
+					"protocol": "http",
+					"host": [
+						"apirest-php",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://apirest-php.com/traer-informacion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "telefono",
+							"value": "5624012822",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "victor123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apirest-php.com/traer-informacion",
+					"protocol": "http",
+					"host": [
+						"apirest-php",
+						"com"
+					],
+					"path": [
+						"traer-informacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://apirest-php.com/crear-reporte",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "telefono",
+							"value": "5624012822",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "victor123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apirest-php.com/traer-informacion",
+					"protocol": "http",
+					"host": [
+						"apirest-php",
+						"com"
+					],
+					"path": [
+						"traer-informacion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
